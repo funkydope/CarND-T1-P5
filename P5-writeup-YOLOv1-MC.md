@@ -1,7 +1,5 @@
 # Vehicle Detection Project
 
-## [Rubric](https://review.udacity.com/#!/rubrics/513/view) Points 
-
 ---
 
 ## Object Detection Methods
@@ -42,6 +40,7 @@ Tiny YOLO v1 contains:
 ..- confidence score (object detection and box dimensions)
 - C=20 classifications scores (20x for PASCAL VOC)
 - output is SxSx(B*5+C) = 7x7x(2*5+20) = 1470 tensor
+
 
     ____________________________________________________________________________________________________
     Layer (type)                     Output Shape          Param #     Connected to                     
