@@ -35,14 +35,14 @@ Tiny YOLO v1 contains:
 - SXS=7x7 grid cells for bounding box predictions
 - B=2 bounding boxes per grid cell
 - 5 predictions per box
-..- x,y positions
-..- w,h box dimensions
-..- confidence score (object detection and box dimensions)
-- C=20 classifications scores (20x for PASCAL VOC)
+    - x,y positions
+    - w,h box dimensions
+    - confidence score (object detection and box dimensions)
+    - C=20 classifications scores (20x for PASCAL VOC)
 - output is SxSx(B*5+C) = 7x7x(2*5+20) = 1470 tensor
 
 Tiny YOLO Model
-![model](./output_images/tiny-yolo-model.jpg)
+![model](./output_images/tiny-yolo-model.JPG)
 
 ## Preprocessing
 
