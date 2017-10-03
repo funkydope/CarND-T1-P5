@@ -116,13 +116,13 @@ Tiny YOLO v1 contains:
 YOLO requires an input image size of 448x448x3 that's normalized from -1 to 1. This means the the input is warped compared to the original image. It's unclear what impact this has on the YOLO detection network.
 
 Original test1 image
-![test1]: ./test_images/test1.jpg
+![test1]:(./test_images/test1.jpg)
 
 Cropped test1 image
-![test1_cropped]: ./output_images/test1_cropped.jpg
+![test1_cropped]:(./output_images/test1_cropped.jpg)
 
 Resized test1 image for YOLO model input
-![test1_resized]: ./output_images/test1_resized.jpg
+![test1_resized]:(./output_images/test1_resized.jpg)
  
 
 ## Detection Sensitivity
